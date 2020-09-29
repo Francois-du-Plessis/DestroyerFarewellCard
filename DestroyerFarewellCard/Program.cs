@@ -55,6 +55,7 @@ namespace DestroyerFarewellCard
         private static void WriteMessage(AbstractCard card)
         {
             Console.WriteLine(card.GetCardMessage());
+            WriteAuthor(card);
         }
 
         private static void WriteImage(AbstractCard card)
@@ -65,6 +66,24 @@ namespace DestroyerFarewellCard
             {
                 ImageDrawHelper.ConsoleWriteImage(image);
             }
+        }
+
+        private static void WriteAuthor(AbstractCard card)
+        {
+            if(card is TitleCard || card is EndCard)
+            {
+                return;
+            }
+
+            var author = card.GetType().Name;
+
+            var cardIndex = author.LastIndexOf("Card");
+            if (cardIndex > -1)
+            {
+                author = author.Remove(cardIndex, 4);
+            }
+
+            Console.WriteLine($"\t\t - {author}");
         }
 
     }
