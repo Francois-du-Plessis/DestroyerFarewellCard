@@ -16,6 +16,9 @@
     <None Update="Images\hanumanthe.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Images\mission.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\VL-image.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
