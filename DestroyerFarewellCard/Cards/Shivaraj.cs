@@ -6,7 +6,7 @@ namespace DestroyerFarewellCard.Cards
     {
         private static readonly string MESSAGE = "All the best Lukas(God father of passport).Your professional behaviour and hard work will definitely serve as an inspiration to all of us";
         
-        private static readonly string IMAGE_URI = "./Images/Shivaraj.png"; //Put image in Images folder and make sure 
+        private static readonly string IMAGE_URI = "./Images/Shivaraj.jpg"; //Put image in Images folder and make sure 
                                                                               //its build properties are set to copy to output
 
         public override string GetCardMessage()
