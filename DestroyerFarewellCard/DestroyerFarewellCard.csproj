@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Images\aloha.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\Lukas_lookalike.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
