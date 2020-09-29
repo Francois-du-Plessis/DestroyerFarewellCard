@@ -13,6 +13,9 @@
     <None Update="Images\aloha.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Images\hanumanthe.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\mission.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -20,6 +23,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Images\Lukas_lookalike.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Shivaraj.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Images\rick_morty.png">
