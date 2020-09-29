@@ -8,7 +8,7 @@ namespace DestroyerFarewellCard.Cards
     class EVT : AbstractCard
     {
         private static readonly string MESSAGE = "*****************************\nI guess this means divorce :/\nSo sorry I'll need to find someone else with a house and a dog.\nGive my best to your wife!\n*****************************";
-        private static readonly string IMAGE_URI = "./Images/1467378707-1466625445-180841023.jpg";
+        private static readonly string IMAGE_URI = "./Images/aloha.jpg";
         public override string GetCardMessage()
         {
             return MESSAGE;
