@@ -10,6 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Cards\JanCard.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Images\aloha.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
