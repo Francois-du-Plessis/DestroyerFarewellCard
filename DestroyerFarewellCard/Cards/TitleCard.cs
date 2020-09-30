@@ -5,7 +5,7 @@ namespace DestroyerFarewellCard.Cards
     public class TitleCard : AbstractCard
     {
         private static readonly string MESSAGE = "";
-        private static readonly string IMAGE_URI = "./Images/Title_Image.png";
+        private static readonly string IMAGE_URI = "./Images/Title_Image_V2.png";
 
         public override string GetCardMessage()
         {
