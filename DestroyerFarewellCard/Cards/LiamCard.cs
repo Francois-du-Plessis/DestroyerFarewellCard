@@ -7,7 +7,13 @@ namespace DestroyerFarewellCard.Cards
 {
     class LiamCard : AbstractCard
     {
-        private static readonly string MESSAGE = "Hey Lukas, its been a priveledge getting led, trained, and mentored by you. Thanks for not rekting me too much! Hope you keep destroying at your new place - ALL THE BEST DOOD!";
+        private static readonly string MESSAGE = "=======================================================================================================================\n" +
+                    "\t Hey Lukas, its been a priveledge getting led, trained, and mentored by you. \n" +
+                    "\t Thanks for not rekting me too much!  \n" +
+                    "\t Hope you keep !!DESTROYING!! at your new place     \n" +
+                    "\t ALL THE BEST DOOD!  \n" +
+                    "=======================================================================================================================";
+       
         private static readonly string IMAGE_URI = "./Images/Lukas_and_friend.png";
 
         public override string GetCardMessage()
