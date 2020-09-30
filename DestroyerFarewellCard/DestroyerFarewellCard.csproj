@@ -13,8 +13,14 @@
     <None Update="Images\Lukas_lookalike.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Images\Lukas_and_friend.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\test_image.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\The_fellowship.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Images\Title_Image.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
