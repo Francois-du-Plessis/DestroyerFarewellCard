@@ -7,7 +7,7 @@ namespace DestroyerFarewellCard
 {
     class Program
     {
-        private static readonly int SECONDS_BETWEEN_CARDS = 5;
+        private static readonly int SECONDS_BETWEEN_CARDS = 8;
 
         static void Main(string[] args)
         {
